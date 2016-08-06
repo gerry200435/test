@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Msg Test</title>
+</head>
+<body>
+<form id="messageForm" action="message_board">
+    <input required type="text" id="visitor_name" placeholder="Name" />
+    <input type="email" id="visitor_email" placeholder="Email" />
+    <input type="text" id="visitor_website"  placeholder="Website" />
+    <br/>
+    <textarea required id="visitor_msg" placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+    <label><input type="checkbox" id="msg_private" value="false">
+        Private Message</label><br/>
+    <input id='submitBtn' type="submit" value="Submit Message" />
+    <br/>               <span id='msg_result'></span>
+    <div><hr></div>
+    <div id="historyComment"></div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+select * from comment_test;
+
+insert into
+comment_test(user_id, content, date)
+values
+(2, 'test', null);
