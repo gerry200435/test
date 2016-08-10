@@ -6,7 +6,7 @@ var app = express();
 var fs = require("fs");
 var msgDao = require('./dao/msgDao');
 
-app.get('/addmsg', function (req, res, next) {
+app.post('/addmsg', function (req, res, next) {
 	msgDao.add(req, res, next);
 });
 
