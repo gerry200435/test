@@ -9,7 +9,6 @@ router.get('/', function (req, res, next) {
 
 router.get('/add', function (req, res, next) {
 	res.send('Hello add');
-	next();
 });
 
 router.get('/test', function (req, res, next) {
@@ -21,7 +20,6 @@ router.get('/test', function (req, res, next) {
 			res.send('err');
 			console.log('Unable to connect to the database:', err);
 		});
-	next();
 });
 
 module.exports = router;
