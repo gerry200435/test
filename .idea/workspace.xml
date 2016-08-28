@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beb604e0-315b-4641-bcd8-c210e1479542" name="Default" comment="commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="beb604e0-315b-4641-bcd8-c210e1479542" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/dbfile.js" afterPath="$PROJECT_DIR$/common/dbfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/msg.js" afterPath="$PROJECT_DIR$/routes/msg.js" />
     </list>
     <ignored path="cyhw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,21 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="msg.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="msg.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/msg.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -332,7 +317,7 @@
       <workItem from="1471963112013" duration="1616000" />
       <workItem from="1472309094365" duration="4101000" />
       <workItem from="1472373041168" duration="735000" />
-      <workItem from="1472399860699" duration="106000" />
+      <workItem from="1472399860699" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1470836110328</created>
@@ -348,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470836570836</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1472399973387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1472399973387</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35512000" />
+    <option name="totallyTimeSpent" value="35527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,18 +569,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/msg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/msg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding />
         </state>
       </provider>
