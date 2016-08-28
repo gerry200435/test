@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var sql = require('../conf/db');
+var User = require('../common/dbfile');
 
 /* GET msg list. */
 router.get('/', function (req, res, next) {
@@ -20,6 +21,23 @@ router.get('/test', function (req, res, next) {
 			res.send('err');
 			console.log('Unable to connect to the database:', err);
 		});
+});
+
+router.get('/init', function (req, res, next) {
+	User.sync().then(function () {
+		// Table created
+		return User.create({
+			firstName: 'John',
+			lastName: 'Hancock'
+		});
+	});
+	res.end('OK');
+});
+
+router.get('/all', function (req, res, next) {
+	User.findAll().then(function(users) {
+		res.send(users);
+	});
 });
 
 module.exports = router;
