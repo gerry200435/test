@@ -3,13 +3,15 @@
  */
 var Sql = require('../conf/db');
 var sequelize = require('sequelize');
-var User = Sql.define('user', {
-	firstName: {
-		type: sequelize.STRING
-	},
-	lastName: {
-		type: sequelize.STRING
-	}
-});
-
-module.exports = User;
+function userModel(sequelize, DataTypes) {
+	var User = sequelize.define('user', {
+		firstName: {
+			type: DataTypes.STRING
+		},
+		lastName: {
+			type: DataTypes.STRING
+		}
+	});
+	return User;
+}
+module.exports = userModel;

@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var sql = require('../conf/db');
-var User = require('../common/dbfile');
+var sequelize = require('sequelize');
+var User = require('../common/dbfile')(sql, sequelize);
 
 /* GET msg list. */
 router.get('/', function (req, res, next) {
